@@ -130,6 +130,17 @@ const Dashboard = () => {
     }
   }, [stats]);
 
+  // Sync activeTheme with document.body.classList
+  useEffect(() => {
+    document.body.classList.remove('theme-cyberpunk', 'theme-oceanic', 'theme-amber');
+    if (activeTheme) {
+      document.body.classList.add(activeTheme);
+    }
+    return () => {
+      document.body.classList.remove('theme-cyberpunk', 'theme-oceanic', 'theme-amber');
+    };
+  }, [activeTheme]);
+
   // Create or Update Log Submit
   const handleFormSubmit = async (payload) => {
     try {
@@ -207,9 +218,9 @@ const Dashboard = () => {
 
   const themesList = [
     { id: '', name: 'Default Slate', minLevel: 1, color: 'bg-slate-500' },
-    { id: 'theme-cyberpunk', name: 'Cyberpunk Neon', minLevel: 2, color: 'bg-pink-500' },
-    { id: 'theme-oceanic', name: 'Oceanic Abyss', minLevel: 3, color: 'bg-cyan-500' },
-    { id: 'theme-amber', name: 'Solarized Amber', minLevel: 4, color: 'bg-amber-500' }
+    { id: 'theme-cyberpunk', name: 'Cyberpunk Neon', minLevel: 1, color: 'bg-pink-500' },
+    { id: 'theme-oceanic', name: 'Oceanic Abyss', minLevel: 1, color: 'bg-cyan-500' },
+    { id: 'theme-amber', name: 'Solarized Amber', minLevel: 1, color: 'bg-amber-500' }
   ];
 
   return (

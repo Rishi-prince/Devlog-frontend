@@ -28,7 +28,7 @@ const Navbar = () => {
   };
 
   return (
-    <header className="sticky top-0 z-50 w-full px-4 pt-4 pb-2 bg-gradient-to-b from-slate-50 via-slate-50/80 to-transparent dark:from-[#0b0f19] dark:via-[#0b0f19]/90 dark:to-transparent">
+    <header className="sticky top-0 z-50 w-full px-4 pt-4 pb-2 bg-transparent">
       <nav className="mx-auto max-w-7xl glass-panel rounded-2xl border px-4 py-2.5 shadow-sm transition-all duration-300">
         <div className="flex items-center justify-between">
           {/* Brand Logo */}

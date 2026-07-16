@@ -119,98 +119,239 @@ code, pre {
 }
 
 /* Custom Level Themes */
+
+/* ==========================================================================
+   CYBERPUNK NEON THEME
+   ========================================================================== */
+
+/* --- Light Mode --- */
 .theme-cyberpunk {
-  background-color: #0c0813 !important;
+  background-color: #fdf2f8 !important; /* Soft lavender-pink */
 }
 .theme-cyberpunk .glass-panel {
+  background: rgba(255, 255, 255, 0.8) !important;
+  border-color: rgba(219, 39, 119, 0.12) !important;
+  box-shadow: 0 4px 20px -2px rgba(219, 39, 119, 0.04) !important;
+}
+.theme-cyberpunk .glass-panel:hover {
+  border-color: rgba(219, 39, 119, 0.25) !important;
+  box-shadow: 0 10px 25px -5px rgba(219, 39, 119, 0.08) !important;
+}
+.theme-cyberpunk .bg-indigo-600 {
+  background-color: #db2777 !important; /* pink-600 */
+}
+.theme-cyberpunk .bg-indigo-600:hover {
+  background-color: #be185d !important;
+}
+.theme-cyberpunk .text-indigo-500, 
+.theme-cyberpunk .text-indigo-600, 
+.theme-cyberpunk .text-indigo-400 {
+  color: #db2777 !important;
+}
+.theme-cyberpunk .bg-indigo-500\/10, 
+.theme-cyberpunk .bg-indigo-500\/15 {
+  background-color: rgba(219, 39, 119, 0.1) !important;
+  color: #db2777 !important;
+}
+.theme-cyberpunk .border-indigo-500\/30 {
+  border-color: rgba(219, 39, 119, 0.25) !important;
+}
+.theme-cyberpunk .shadow-indigo-500\/25, 
+.theme-cyberpunk .shadow-indigo-500\/10 {
+  box-shadow: 0 10px 25px -5px rgba(219, 39, 119, 0.15) !important;
+}
+
+/* --- Dark Mode --- */
+.dark .theme-cyberpunk {
+  background-color: #0c0813 !important; /* Deep dark purple */
+}
+.dark .theme-cyberpunk .glass-panel {
   background: rgba(26, 12, 40, 0.45) !important;
   border-color: rgba(236, 72, 153, 0.15) !important;
   box-shadow: 0 0 15px rgba(236, 72, 153, 0.05) !important;
 }
-.theme-cyberpunk .glass-panel:hover {
-  border-color: rgba(236, 72, 153, 0.3) !important;
-  box-shadow: 0 0 25px rgba(236, 72, 153, 0.1) !important;
+.dark .theme-cyberpunk .glass-panel:hover {
+  border-color: rgba(236, 72, 153, 0.35) !important;
+  box-shadow: 0 0 25px rgba(236, 72, 153, 0.12) !important;
 }
-.theme-cyberpunk .bg-indigo-600 {
-  background-color: #ec4899 !important;
+.dark .theme-cyberpunk .bg-indigo-600 {
+  background-color: #ec4899 !important; /* pink-500 */
 }
-.theme-cyberpunk .bg-indigo-600:hover {
+.dark .theme-cyberpunk .bg-indigo-600:hover {
   background-color: #db2777 !important;
 }
-.theme-cyberpunk .text-indigo-500, .theme-cyberpunk .text-indigo-600, .theme-cyberpunk .text-indigo-400 {
+.dark .theme-cyberpunk .text-indigo-500, 
+.dark .theme-cyberpunk .text-indigo-600, 
+.dark .theme-cyberpunk .text-indigo-400 {
   color: #ec4899 !important;
 }
-.theme-cyberpunk .bg-indigo-500\/10, .theme-cyberpunk .bg-indigo-500\/15 {
+.dark .theme-cyberpunk .bg-indigo-500\/10, 
+.dark .theme-cyberpunk .bg-indigo-500\/15 {
   background-color: rgba(236, 72, 153, 0.12) !important;
   color: #ec4899 !important;
 }
-.theme-cyberpunk .border-indigo-500\/30 {
+.dark .theme-cyberpunk .border-indigo-500\/30 {
   border-color: rgba(236, 72, 153, 0.3) !important;
 }
-.theme-cyberpunk .shadow-indigo-500\/25, .theme-cyberpunk .shadow-indigo-500\/10 {
+.dark .theme-cyberpunk .shadow-indigo-500\/25, 
+.dark .theme-cyberpunk .shadow-indigo-500\/10 {
   box-shadow: 0 10px 25px -5px rgba(236, 72, 153, 0.25) !important;
 }
 
+
+/* ==========================================================================
+   OCEANIC ABYSS THEME
+   ========================================================================== */
+
+/* --- Light Mode --- */
 .theme-oceanic {
-  background-color: #030a16 !important;
+  background-color: #edfcfd !important; /* Soft cyan-blue tint */
 }
 .theme-oceanic .glass-panel {
+  background: rgba(255, 255, 255, 0.8) !important;
+  border-color: rgba(8, 145, 178, 0.12) !important;
+  box-shadow: 0 4px 20px -2px rgba(8, 145, 178, 0.04) !important;
+}
+.theme-oceanic .glass-panel:hover {
+  border-color: rgba(8, 145, 178, 0.25) !important;
+  box-shadow: 0 10px 25px -5px rgba(8, 145, 178, 0.08) !important;
+}
+.theme-oceanic .bg-indigo-600 {
+  background-color: #0891b2 !important; /* cyan-600 */
+}
+.theme-oceanic .bg-indigo-600:hover {
+  background-color: #0e7490 !important;
+}
+.theme-oceanic .text-indigo-500, 
+.theme-oceanic .text-indigo-600, 
+.theme-oceanic .text-indigo-400 {
+  color: #0891b2 !important;
+}
+.theme-oceanic .bg-indigo-500\/10, 
+.theme-oceanic .bg-indigo-500\/15 {
+  background-color: rgba(8, 145, 178, 0.1) !important;
+  color: #0891b2 !important;
+}
+.theme-oceanic .border-indigo-500\/30 {
+  border-color: rgba(8, 145, 178, 0.25) !important;
+}
+.theme-oceanic .shadow-indigo-500\/25, 
+.theme-oceanic .shadow-indigo-500\/10 {
+  box-shadow: 0 10px 25px -5px rgba(8, 145, 178, 0.15) !important;
+}
+
+/* --- Dark Mode --- */
+.dark .theme-oceanic {
+  background-color: #020b14 !important; /* Deep ocean black */
+}
+.dark .theme-oceanic .glass-panel {
   background: rgba(3, 20, 36, 0.45) !important;
   border-color: rgba(6, 182, 212, 0.15) !important;
   box-shadow: 0 0 15px rgba(6, 182, 212, 0.05) !important;
 }
-.theme-oceanic .glass-panel:hover {
-  border-color: rgba(6, 182, 212, 0.3) !important;
-  box-shadow: 0 0 25px rgba(6, 182, 212, 0.1) !important;
+.dark .theme-oceanic .glass-panel:hover {
+  border-color: rgba(6, 182, 212, 0.35) !important;
+  box-shadow: 0 0 25px rgba(6, 182, 212, 0.12) !important;
 }
-.theme-oceanic .bg-indigo-600 {
-  background-color: #06b6d4 !important;
+.dark .theme-oceanic .bg-indigo-600 {
+  background-color: #06b6d4 !important; /* cyan-500 */
 }
-.theme-oceanic .bg-indigo-600:hover {
+.dark .theme-oceanic .bg-indigo-600:hover {
   background-color: #0891b2 !important;
 }
-.theme-oceanic .text-indigo-500, .theme-oceanic .text-indigo-600, .theme-oceanic .text-indigo-400 {
+.dark .theme-oceanic .text-indigo-500, 
+.dark .theme-oceanic .text-indigo-600, 
+.dark .theme-oceanic .text-indigo-400 {
   color: #06b6d4 !important;
 }
-.theme-oceanic .bg-indigo-500\/10, .theme-oceanic .bg-indigo-500\/15 {
+.dark .theme-oceanic .bg-indigo-500\/10, 
+.dark .theme-oceanic .bg-indigo-500\/15 {
   background-color: rgba(6, 182, 212, 0.12) !important;
   color: #06b6d4 !important;
 }
-.theme-oceanic .border-indigo-500\/30 {
+.dark .theme-oceanic .border-indigo-500\/30 {
   border-color: rgba(6, 182, 212, 0.3) !important;
 }
-.theme-oceanic .shadow-indigo-500\/25, .theme-oceanic .shadow-indigo-500\/10 {
+.dark .theme-oceanic .shadow-indigo-500\/25, 
+.dark .theme-oceanic .shadow-indigo-500\/10 {
   box-shadow: 0 10px 25px -5px rgba(6, 182, 212, 0.25) !important;
 }
 
+
+/* ==========================================================================
+   SOLARIZED AMBER THEME
+   ========================================================================== */
+
+/* --- Light Mode --- */
 .theme-amber {
-  background-color: #120904 !important;
+  background-color: #fffdf5 !important; /* Soft warm-amber tint */
 }
 .theme-amber .glass-panel {
+  background: rgba(255, 255, 255, 0.8) !important;
+  border-color: rgba(217, 119, 6, 0.12) !important;
+  box-shadow: 0 4px 20px -2px rgba(217, 119, 6, 0.04) !important;
+}
+.theme-amber .glass-panel:hover {
+  border-color: rgba(217, 119, 6, 0.25) !important;
+  box-shadow: 0 10px 25px -5px rgba(217, 119, 6, 0.08) !important;
+}
+.theme-amber .bg-indigo-600 {
+  background-color: #d97706 !important; /* amber-600 */
+}
+.theme-amber .bg-indigo-600:hover {
+  background-color: #b45309 !important;
+}
+.theme-amber .text-indigo-500, 
+.theme-amber .text-indigo-600, 
+.theme-amber .text-indigo-400 {
+  color: #d97706 !important;
+}
+.theme-amber .bg-indigo-500\/10, 
+.theme-amber .bg-indigo-500\/15 {
+  background-color: rgba(217, 119, 6, 0.1) !important;
+  color: #d97706 !important;
+}
+.theme-amber .border-indigo-500\/30 {
+  border-color: rgba(217, 119, 6, 0.25) !important;
+}
+.theme-amber .shadow-indigo-500\/25, 
+.theme-amber .shadow-indigo-500\/10 {
+  box-shadow: 0 10px 25px -5px rgba(217, 119, 6, 0.15) !important;
+}
+
+/* --- Dark Mode --- */
+.dark .theme-amber {
+  background-color: #120904 !important; /* Deep charcoal-amber */
+}
+.dark .theme-amber .glass-panel {
   background: rgba(24, 12, 4, 0.45) !important;
   border-color: rgba(245, 158, 11, 0.15) !important;
   box-shadow: 0 0 15px rgba(245, 158, 11, 0.05) !important;
 }
-.theme-amber .glass-panel:hover {
-  border-color: rgba(245, 158, 11, 0.3) !important;
-  box-shadow: 0 0 25px rgba(245, 158, 11, 0.1) !important;
+.dark .theme-amber .glass-panel:hover {
+  border-color: rgba(245, 158, 11, 0.35) !important;
+  box-shadow: 0 0 25px rgba(245, 158, 11, 0.12) !important;
 }
-.theme-amber .bg-indigo-600 {
-  background-color: #f59e0b !important;
+.dark .theme-amber .bg-indigo-600 {
+  background-color: #f59e0b !important; /* amber-500 */
 }
-.theme-amber .bg-indigo-600:hover {
+.dark .theme-amber .bg-indigo-600:hover {
   background-color: #d97706 !important;
 }
-.theme-amber .text-indigo-500, .theme-amber .text-indigo-600, .theme-amber .text-indigo-400 {
+.dark .theme-amber .text-indigo-500, 
+.dark .theme-amber .text-indigo-600, 
+.dark .theme-amber .text-indigo-400 {
   color: #f59e0b !important;
 }
-.theme-amber .bg-indigo-500\/10, .theme-amber .bg-indigo-500\/15 {
+.dark .theme-amber .bg-indigo-500\/10, 
+.dark .theme-amber .bg-indigo-500\/15 {
   background-color: rgba(245, 158, 11, 0.12) !important;
   color: #f59e0b !important;
 }
-.theme-amber .border-indigo-500\/30 {
+.dark .theme-amber .border-indigo-500\/30 {
   border-color: rgba(245, 158, 11, 0.3) !important;
 }
-.theme-amber .shadow-indigo-500\/25, .theme-amber .shadow-indigo-500\/10 {
+.dark .theme-amber .shadow-indigo-500\/25, 
+.dark .theme-amber .shadow-indigo-500\/10 {
   box-shadow: 0 10px 25px -5px rgba(245, 158, 11, 0.25) !important;
 }
